@@ -1,0 +1,10 @@
+newspaper=range(1, 76)
+magazine=range(77, 104)
+both=range(21, 34)
+
+newspapper=set(newspaper)
+magazine=set(magazine)
+both=set(both)
+pre_RES=newspapper | magazine
+RESULT=pre_RES.difference(both)
+print(len(RESULT))
