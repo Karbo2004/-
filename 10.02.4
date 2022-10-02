@@ -1,0 +1,9 @@
+def cacluate(*num):
+li = []
+avg = sum(num)/len(num)
+for i in num:
+if i > avg:
+li.append(i)
+return avg,li
+count = cacluate(12,13,14,15,16)
+print (count)
