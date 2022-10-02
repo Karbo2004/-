@@ -1,0 +1,12 @@
+i = True
+summa = 0
+while i:
+    prompt = input("введите данные:")
+    if prompt == "":
+        print(summa)
+        summa=0
+    else:
+        try:
+            summa+=int(prompt)
+        except:
+            print("")
