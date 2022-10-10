@@ -1,13 +1,13 @@
 def main(req):
- if 'Расписание занятий' in req.lower() or 'Дни недели' in req.lower():
+ if 'Расписание занятий' in req() or 'Дни недели' in req():
         Raspisanie()
- if 'Тренер' in req.lower() or 'Контакты тренера' in req.lower():
+ if 'Тренер' in req() or 'Контакты тренера' in req():
         Trener()
- if 'Оплата' in req.lower() or 'Стоимость' in req.lower() or 'Сумма' in req.lower():
+ if 'Оплата' in req() or 'Стоимость' in req() or 'Сумма' in req():
         Oplata()
- if 'Посещаемость' in req.lower() or 'Пропуск' in req.lower() or 'Режим' in req.lower():
+ if 'Посещаемость' in req() or 'Пропуск' in req() or 'Режим' in req():
         Poseshaemost()
- if 'Как добраться' in req.lower() or 'Куда ехать' in req.lower() or 'Место' in req.lower():
+ if 'Как добраться' in req() or 'Куда ехать' in req() or 'Место' in req():
         Doroga()
 
 def Raspisanie():
