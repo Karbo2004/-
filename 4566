@@ -1,0 +1,6 @@
+sale = int(input('ваша скидка:'))
+amount = int(input('стоимость:'))
+while (amount != 0):
+    answer = amount*sale/100
+    print('скидка: ',sale,'%, цена: ',answer)
+    amount = int(input('стоимость:'))
