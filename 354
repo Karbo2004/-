@@ -1,0 +1,14 @@
+def gen(s):
+    for i in s:
+        if i.isalpha():
+            yield i
+
+
+def main():
+    g = gen('Hello 11111 qwerty 2222::__')
+
+    for x in g:
+        print(x)
+
+
+main()
