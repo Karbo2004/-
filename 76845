@@ -1,0 +1,6 @@
+with open('geinus.txt', 'w+') as f:
+    f.write('Я гений и стараюсь учить питон')
+    f.seek(0)
+    part = f.read(7)
+    print(part)
+    f.close()
