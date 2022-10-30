@@ -1,0 +1,5 @@
+feedback = input('ваш отзыв(off - завершить):')
+while feedback != 'off':
+    print('отзыв принят!')
+    feedback = input('ваш отзыв(off - завершить):')
+print('предпочтения готовы!')
